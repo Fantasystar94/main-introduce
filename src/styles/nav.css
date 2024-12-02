@@ -1,0 +1,60 @@
+/* 네비게이션 스타일 */
+.navbar {
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    backdrop-filter: blur(10px);
+  }
+  .navbar.fixed{
+    position:fixed;
+  }
+  .navbar-logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #000;
+  }
+  
+  .navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  .navbar-links li {
+    cursor: pointer;
+    font-size: 1rem;
+    color: #555;
+    transition: color 0.3s;
+  }
+  
+  .navbar-links li:hover {
+    color: #000;
+  }
+  
+  /* 섹션 스타일 */
+  .section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+  }
+  
+  /* 반응형 스타일 */
+  @media (max-width: 749px) {
+    .navbar-links {
+      gap: 1rem;
+      font-size: 0.9rem;
+    }
+    .navbar{
+      flex-direction:column;
+    }
+  }

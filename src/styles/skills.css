@@ -1,0 +1,16 @@
+.skills{height:auto;width:100%;padding:50px 0 0 0;background-color:#f9f9f9;}
+.skills .mainTitle{font-size:30px;font-weight:700;text-align:center;}
+.skills .skillBox{width:760px;display:flex;flex-direction:row;justify-content:flex-start;flex-wrap:wrap;margin:50px auto 0;}
+.skills .skillBox li{width:233px;margin:0 20px 20px 0;padding:5px;display:flex;flex-direction:row;justify-content:center;align-items:center;gap:0 5px;background-color:#fff;border-radius:10px;}
+
+@media (max-width:749px) {
+    .skills .skillBox{
+        width:100%;
+        max-width:750px;
+        justify-content:center;
+    }
+    .skills{
+        padding-top:30px;
+    }
+
+}
