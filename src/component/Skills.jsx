@@ -1,7 +1,10 @@
 import { FaReact, FaVuejs, FaHtml5, FaCss3Alt, FaJs, FaSass } from "react-icons/fa";
+import { SiTypescript, SiJquery } from "react-icons/si";
 import { forwardRef } from 'react';
 import "../styles/skills.css";
 const Skills=forwardRef((props,ref)=>{
+      
+
     return(
     <div className="skills" ref={ref}>
         <div className="mainTitle">
@@ -14,6 +17,8 @@ const Skills=forwardRef((props,ref)=>{
             <li className="shadow"><FaCss3Alt color="#1572B6" /> CSS</li>
             <li className="shadow"><FaJs color="#F7DF1E" /> JavaScript</li>
             <li className="shadow"><FaSass color="#CC6699" /> SCSS</li>
+            <li className="shadow"><SiTypescript color="#3178C6"  /> TypeScript</li>
+            <li className="shadow"><SiJquery color="#0769AD" /> jQuery</li>
         </ul>
     </div>
     )

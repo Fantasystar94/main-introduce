@@ -43,7 +43,7 @@
 }
 .project .projectWrap .item .article{
     margin-top:20px;
-    max-height:150px;
+    max-height:130px;
     overflow:scroll;
     font-size:13px;
 }
@@ -76,5 +76,8 @@
     }
     .project .projectWrap .item .article{
         max-height:100px;
+    }
+    .project .projectWrap .item .link{
+        font-size:10px;
     }
 }
