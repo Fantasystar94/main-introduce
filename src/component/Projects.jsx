@@ -10,6 +10,17 @@ const Projects = forwardRef((props,ref)=>{
                 </h3>
             </div>
             <div className="projectWrap">
+            <div className="item shadow">
+                    <h4 className='itemTit'>
+                    너 얼마나 T 야?! 심리테스트 
+                    </h4>
+                    <a href="https://mindmeter.netlify.app/" className='link' target='_blank'>
+                    https://mindmeter.netlify.app/
+                    </a>
+                    <div className="article">
+                    이 프로젝트는 TypeScript로 구현된 심리 테스트 애플리케이션으로, 사용자가 질문에 답하면서 자신의 성향을 평가할 수 있도록 설계되었습니다. class 기반으로 헤더와 질문 처리 로직을 구성하며, 각 질문에 대한 입력을 관리하고, 진행 상황에 따라 페이지를 이동시키는 기능을 제공합니다. 또한, 로컬 상태 관리 및 이벤트 핸들링을 통해 사용자 입력을 실시간으로 저장하고 결과를 계산하여 최종 성향을 보여주는 페이지로 리디렉션됩니다.
+                    </div>
+                </div>
                 <div className="item shadow">
                     <h4 className='itemTit'>
                         TodoList
