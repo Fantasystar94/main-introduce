@@ -37,18 +37,38 @@
 .project .projectWrap .item .link{
     color:#0090f7;
     position:relative;
-    
-    font-size:12px;
+    line-height:20px;
+    min-height:20px;
+    font-size:20px;
     display:block;
+}
+.project .projectWrap .item .link svg{
+    fill: #0090f7;
+    width:20px;
+    height:20px;
 }
 .project .projectWrap .item .article{
     margin-top:20px;
-    max-height:130px;
+    max-height:90px;
     overflow:scroll;
     font-size:13px;
 }
 .project .projectWrap .item .article::-webkit-scrollbar{
     display:none !important;
+}
+.keyword{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+}
+.keyword span{
+    display:inline-block;
+    background-color:#0090f7;
+    color:#fff;
+    border-radius:8px;
+    margin:0 5px 5px 0;
+    padding:5px;
+    font-size:12px;
 }
 @media (max-width:749px) {
     .project{
@@ -78,6 +98,14 @@
         max-height:100px;
     }
     .project .projectWrap .item .link{
+        line-height:12px;
+        min-height:12px;
         font-size:10px;
+        margin-bottom:8px;
+    }
+    .project .projectWrap .item .link svg{
+        fill: #0090f7;
+        width:12px;
+        height:12px;
     }
 }
