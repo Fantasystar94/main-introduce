@@ -18,9 +18,10 @@ const Projects = forwardRef((props,ref)=>{
                         <span>TypeScript</span>
                         <span>Css</span>
                         <span>PC/MO</span>
+                        <span>개인 프로젝트</span>
                     </div>
                     <a href="https://mindmeter.netlify.app/" className='link' target='_blank'>
-                    <Svg></Svg>
+                    
                     Link
                     </a>
                     <div className="article">
@@ -37,9 +38,10 @@ const Projects = forwardRef((props,ref)=>{
                         <span>LocalStorage</span>
                         <span>Props</span>
                         <span>PC/MO</span>
+                        <span>개인 프로젝트</span>
                     </div>
                     <a href="https://todo-local-six.vercel.app/" className='link' target='_blank'>
-                    <Svg></Svg>
+                    
                     Link
                     </a>
                     <div className="article">  
@@ -50,23 +52,41 @@ const Projects = forwardRef((props,ref)=>{
                 </div>
                 <div className="item shadow">
                     <h4 className='itemTit'>
-                        MovieBoxOffice
+                        MovieBoxOffice-React
                     </h4>
                     <div className='keyword'>
                         <span>React</span>
+                        <span>Axios</span>
+                        <span>Props</span>
+                        <span>API</span>
+                        <span>PC/MO</span>
+                        <span>개인 프로젝트</span>
+                    </div>
+                    <a href="https://movie-portfolio-git-main-fantasystar94s-projects.vercel.app/" className='link' target='_blank'>
+                    
+                    Link
+                    </a>
+                    <div className="article">
+                        <p>
+                    영화 박스오피스와 추천 영화 리스트를 보여주는 애플리케이션으로, React와 Vue를 활용해 동일한 기능을 구현했습니다. 박스오피스 API에서 수집한 영화 데이터를 기반으로, 각 영화 제목을 활용해 별도의 영화 데이터베이스 API에서 이미지와 상세 정보를 추가로 가져와 처리했습니다. 부모 컴포넌트에서 받은 데이터를 Props를 통해 자식 컴포넌트로 전달하여 모달 창과 상세 페이지를 구현했으며, React와 Vue 각각의 특성을 살려 효율적이고 직관적인 사용자 인터페이스를 완성했습니다.
+                        </p>
+                    </div>
+                </div>
+                <div className="item shadow">
+                    <h4 className='itemTit'>
+                        MovieBoxOffice-Vue
+                    </h4>
+                    <div className='keyword'>
                         <span>Vue.js</span>
                         <span>Axios</span>
                         <span>Props</span>
                         <span>API</span>
                         <span>PC/MO</span>
+                        <span>개인 프로젝트</span>
                     </div>
-                    <a href="https://movie-portfolio-git-main-fantasystar94s-projects.vercel.app/" className='link' target='_blank'>
-                    <Svg></Svg>
-                    React Link
-                    </a>
                     <a href="https://movieportfolio-vue-git-main-fantasystar94s-projects.vercel.app/" className='link' target='_blank'>
-                    <Svg></Svg>
-                    Vue.js Link
+                    
+                    Link
                     </a>
                     <div className="article">
                         <p>
@@ -85,9 +105,10 @@ const Projects = forwardRef((props,ref)=>{
                         <span>Jquery</span>
                         <span>Javascript</span>
                         <span>PC Only</span>
+                        <span>학원 프로젝트</span>
                     </div>
                     <a href="http://minyung944.dothome.co.kr/portfolio/ocn/" className='link' target='_blank'>
-                    <Svg></Svg>
+                    
                     Link
                     </a>
                     <div className="article">
@@ -105,9 +126,10 @@ const Projects = forwardRef((props,ref)=>{
                         <span>Jquery</span>
                         <span>Javascript</span>
                         <span>PC Only</span>
+                        <span>학원 프로젝트</span>
                     </div>
                     <a href="http://minyung944.dothome.co.kr/portfolio/shop1/" className='link' target='_blank'>
-                    <Svg></Svg>
+                    
                     Link
                     </a>
                     <div className="article">
@@ -125,9 +147,10 @@ const Projects = forwardRef((props,ref)=>{
                         <span>Vue.js</span>
                         <span>Javascript</span>
                         <span>PC Only</span>
+                        <span>학원 프로젝트</span>
                     </div>
                     <a href="http://minyung944.dothome.co.kr/portfolio/shop/adm/" className='link' target='_blank'>
-                    <Svg></Svg>
+                    
                     Link
                     </a>
                     <div className="article">
@@ -146,9 +169,10 @@ const Projects = forwardRef((props,ref)=>{
                         <span>AJax</span>
                         <span>Jquery</span>
                         <span>Javascript</span>
+                        <span>학원 프로젝트</span>
                     </div>
                     <a href="http://minyung944.dothome.co.kr/portfolio/shop/" className='link' target='_blank'>
-                    <Svg></Svg>
+                    
                     Link
                     </a>
                     <div className="article">
