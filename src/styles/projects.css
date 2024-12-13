@@ -35,17 +35,17 @@
     font-size:24px;
 }
 .project .projectWrap .item .link{
-    color:#0090f7;
+    background-color:#f2416b;
+    color:#fff;
+    padding:8px;
+    border-radius:10px;
+    width:auto;
+    max-width:20%;
     position:relative;
     line-height:20px;
     min-height:20px;
-    font-size:20px;
-    display:block;
-}
-.project .projectWrap .item .link svg{
-    fill: #0090f7;
-    width:20px;
-    height:20px;
+    font-size:16px;
+    display:inline-block;
 }
 .project .projectWrap .item .article{
     margin-top:20px;
@@ -100,7 +100,7 @@
     .project .projectWrap .item .link{
         line-height:12px;
         min-height:12px;
-        font-size:10px;
+        font-size:12px;
         margin-bottom:8px;
     }
     .project .projectWrap .item .link svg{
