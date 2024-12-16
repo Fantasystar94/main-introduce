@@ -112,3 +112,9 @@
       opacity: 1;
     }
   }
+  @media (hover: none) {
+    .shadow:hover{
+      transform:none; /* 요소를 살짝 확대 */
+      box-shadow:none; /* 그림자를 더 진하게 */
+    }
+  }
