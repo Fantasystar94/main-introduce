@@ -8,6 +8,7 @@ import './styles/nav.css';
 import Skills from './component/Skills';
 import Projects from './component/Projects';
 import Footer from './component/Footer';
+import Career from './component/Career';
 function App() {
   const topRef = useRef(null);
   const aboutMeRef = useRef(null);
@@ -65,6 +66,7 @@ function App() {
       <AboutMe ref={aboutMeRef} />
       <Skills ref={skillsRef} />
       <Projects ref={projectsRef} />
+      {/* <Career ref={careerRef} /> */}
       <Footer></Footer>
     </>
   );

@@ -10,6 +10,42 @@ const Projects = forwardRef((props,ref)=>{
                 </h3>
             </div>
             <div className="projectWrap">
+                            <div className="item shadow">
+                    <h4 className='itemTit'>
+                    SSFSHOP 매거진 페이지 코딩-살림탐색
+                    </h4>
+                    <div className='keyword'>
+                        <span>JQuery</span>
+                        <span>Slick Library</span>
+                        <span>PC/MO</span>
+                        <span>SSFSHOP 협력사(웨이브) 소속 기여</span>
+                    </div>
+                    <a href="https://www.ssfshop.com/ssfMgz/91223/view?tagPage=LF_STYLE&emph=N" className='link' target='_blank'>
+                    
+                    Link
+                    </a>
+                    <div className="article">
+                    SM사업부 협력사(웨이브) 소속으로 작업한 프로젝트로, 기획서를 기반으로 디자인된 내용을 퍼블리싱하며 매거진에 적합한 레이아웃을 구성해 기획 의도에 맞는 매거진 페이지를 구현했습니다.
+                    </div>
+                </div>
+            <div className="item shadow">
+                    <h4 className='itemTit'>
+                    SSFSHOP 매거진 페이지 코딩-브랜드토크
+                    </h4>
+                    <div className='keyword'>
+                        <span>JQuery</span>
+                        <span>Slick Library</span>
+                        <span>PC/MO</span>
+                        <span>SSFSHOP 협력사(웨이브) 소속 기여</span>
+                    </div>
+                    <a href="https://www.ssfshop.com/ssfMgz/95975/view?tagPage=LF_STYLE&emph=N" className='link' target='_blank'>
+                    
+                    Link
+                    </a>
+                    <div className="article">
+                    SM사업부 협력사(웨이브) 소속으로 작업한 작업물로, 기획서를 기반으로 디자인된 내용을 퍼블리싱하였습니다. slick, scrolla와 같은 다양한 라이브러리를 활용해 요청된 애니메이션 효과(슬라이더, 스크롤 인터랙션 등)를 기획서의 요구 사항에 맞춰 구현하였습니다.  
+                    </div>
+                </div>
             <div className="item shadow">
                     <h4 className='itemTit'>
                     너 얼마나 T 야?! 심리테스트 
